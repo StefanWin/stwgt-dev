@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-LABEL maintainer="Stefan Wintergerst <wintergerst.stefan@googlemail.com>"
+LABEL org.opencontainers.image.authors="wintergerst.stefan@googlemail.com"
 LABEL name="stwgt-dev"
 LABEL version="latest"
 
