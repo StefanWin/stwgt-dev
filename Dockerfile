@@ -8,9 +8,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 WORKDIR /root
 
-RUN apt update && apt upgrade -y
+RUN apt-get update && apt-get upgrade -y
 
-RUN apt install git curl -y
+RUN apt-get install git curl -y
 
 ARG NODE_VERSION=v18.4.0
 
